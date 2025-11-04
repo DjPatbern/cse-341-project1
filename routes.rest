@@ -1,9 +1,9 @@
 //PRODUCTION
 ### Get all contacts
-GET https://cse341-test.onrender.com/contacts
+GET https://cse-341-project1-okn7.onrender.com/contacts
 
 ### Get contacts by id
-GET https://cse341-test.onrender.com/contacts/690a18d2dfd188943bbdd71b
+GET https://cse-341-project1-okn7.onrender.com/contacts/690a18d2dfd188943bbdd71b
 
 // LOCALHOST
 ### Get all contacts
