@@ -1,0 +1,25 @@
+{
+  "name": "cse-341-project1",
+  "version": "1.0.0",
+  "description": "My first project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DjPatbern/cse-341-project1.git"
+  },
+  "author": "Victor Patrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DjPatbern/cse-341-project1/issues"
+  },
+  "homepage": "https://github.com/DjPatbern/cse-341-project1#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2"
+  }
+}
