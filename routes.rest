@@ -1,14 +1,74 @@
-//PRODUCTION
+// ======================================
+// PRODUCTION
+// ======================================
+
 ### Get all contacts
 GET https://cse-341-project1-okn7.onrender.com/contacts
 
-### Get contacts by id
+### Get contact by ID
 GET https://cse-341-project1-okn7.onrender.com/contacts/690a18d2dfd188943bbdd71b
 
-// LOCALHOST
-### Get all contacts
+### Create a new contact
+POST https://cse-341-project1-okn7.onrender.com/contacts
+Content-Type: application/json
 
+{
+  "firstName": "Victor",
+  "lastName": "Patrick",
+  "email": "victor.patrick@example.com",
+  "favoriteColor": "Green",
+  "birthday": "1999-05-24"
+}
+
+### Update a contact
+PUT https://cse-341-project1-okn7.onrender.com/contacts/690a18d2dfd188943bbdd71b
+Content-Type: application/json
+
+{
+  "firstName": "Victor",
+  "lastName": "Patrick",
+  "email": "updated.victor@example.com",
+  "favoriteColor": "Blue",
+  "birthday": "1999-05-24"
+}
+
+### Delete a contact
+DELETE https://cse-341-project1-okn7.onrender.com/contacts/690a18d2dfd188943bbdd71b
+
+
+// ======================================
+// LOCALHOST
+// ======================================
+
+### Get all contacts
 GET http://localhost:8080/contacts
 
-### Get contacts by id
+### Get contact by ID
 GET http://localhost:8080/contacts/690a18d2dfd188943bbdd71b
+
+### Create a new contact
+POST http://localhost:8080/contacts
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "favoriteColor": "Red",
+  "birthday": "1990-10-10"
+}
+
+### Update a contact
+PUT http://localhost:8080/contacts/690a18d2dfd188943bbdd71b
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.updated@example.com",
+  "favoriteColor": "Yellow",
+  "birthday": "1990-10-10"
+}
+
+### Delete a contact
+DELETE http://localhost:8080/contacts/690a18d2dfd188943bbdd71b
